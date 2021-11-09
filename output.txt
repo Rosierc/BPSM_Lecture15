@@ -1,0 +1,65 @@
+What's the input sequence?
+	What's the input sequence?
+	Now generating the triple:  ATG
+Now generating the triple:  TTC
+Now generating the triple:  GGT
+Generated all triples:  ['ATG', 'TTC', 'GGT']
+Now generating the triple:  TGT
+Now generating the triple:  TCG
+Generated all triples:  ['TGT', 'TCG']
+Now generating the triple:  GTT
+Now generating the triple:  CGG
+Generated all triples:  ['GTT', 'CGG']
+All three frames generated:  [['ATG', 'TTC', 'GGT'], ['TGT', 'TCG'], ['GTT', 'CGG']]
+Generated translation MFG for frame ['ATG', 'TTC', 'GGT'].
+Generated translation CS for frame ['TGT', 'TCG'].
+Generated translation VR for frame ['GTT', 'CGG'].
+All three translation generated:  ['MFG', 'CS', 'VR']
+>>> For FORWARD frames:  ['MFG', 'CS', 'VR']
+Now generating the triple:  TGG
+Now generating the triple:  CTT
+Now generating the triple:  GTA
+Generated all triples:  ['TGG', 'CTT', 'GTA']
+Now generating the triple:  GGC
+Now generating the triple:  TTG
+Generated all triples:  ['GGC', 'TTG']
+Now generating the triple:  GCT
+Now generating the triple:  TGT
+Generated all triples:  ['GCT', 'TGT']
+All three frames generated:  [['TGG', 'CTT', 'GTA'], ['GGC', 'TTG'], ['GCT', 'TGT']]
+Generated translation WLV for frame ['TGG', 'CTT', 'GTA'].
+Generated translation GL for frame ['GGC', 'TTG'].
+Generated translation AC for frame ['GCT', 'TGT'].
+All three translation generated:  ['WLV', 'GL', 'AC']
+>>> For REVERSED frames:  ['WLV', 'GL', 'AC']
+Now generating the triple:  ATG
+Now generating the triple:  TTC
+Now generating the triple:  GGT
+Generated all triples:  ['ATG', 'TTC', 'GGT']
+Now generating the triple:  TGT
+Now generating the triple:  TCG
+Generated all triples:  ['TGT', 'TCG']
+Now generating the triple:  GTT
+Now generating the triple:  CGG
+Generated all triples:  ['GTT', 'CGG']
+All three frames generated:  [['ATG', 'TTC', 'GGT'], ['TGT', 'TCG'], ['GTT', 'CGG']]
+Generated translation MFG for frame ['ATG', 'TTC', 'GGT'].
+Generated translation CS for frame ['TGT', 'TCG'].
+Generated translation VR for frame ['GTT', 'CGG'].
+All three translation generated:  ['MFG', 'CS', 'VR']
+Now generating the triple:  TGG
+Now generating the triple:  CTT
+Now generating the triple:  GTA
+Generated all triples:  ['TGG', 'CTT', 'GTA']
+Now generating the triple:  GGC
+Now generating the triple:  TTG
+Generated all triples:  ['GGC', 'TTG']
+Now generating the triple:  GCT
+Now generating the triple:  TGT
+Generated all triples:  ['GCT', 'TGT']
+All three frames generated:  [['TGG', 'CTT', 'GTA'], ['GGC', 'TTG'], ['GCT', 'TGT']]
+Generated translation WLV for frame ['TGG', 'CTT', 'GTA'].
+Generated translation GL for frame ['GGC', 'TTG'].
+Generated translation AC for frame ['GCT', 'TGT'].
+All three translation generated:  ['WLV', 'GL', 'AC']
+>>>>> Final result of translation of both FORWARD and REVERSED frames:  [['MFG', 'CS', 'VR'], ['WLV', 'GL', 'AC']]
